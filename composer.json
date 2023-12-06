@@ -1,0 +1,9 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "bacon/bacon-qr-code": "^2.0",
+        "endroid/qr-code": "^3.9",
+        "google/cloud-firestore": "^0.1.0",
+        "kreait/firebase-php": "^5.19"
+    }
+}
